@@ -1,0 +1,70 @@
+* {
+  font-family: "Century Gothic";
+}
+body {
+  background-color: cornflowerblue;
+}
+
+header h1 {
+  color: white;
+  margin-bottom: 50px;
+}
+header button {
+  border: none;
+  color: white;
+  background-color: rgb(37, 107, 177);
+  padding: 7px 34px;
+  font-size: 1.1em;
+  outline: none;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+header input {
+  padding: 9.5px 14px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+#city {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+#icon {
+  transform: scale(3);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+#temp,
+#clouds {
+  display: inline;
+  font-size: 1.5em;
+  color: white;
+}
+
+#temp {
+  margin-right: 100px;
+}
+
+#clouds {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 630px) {
+  header input {
+    width: 60%;
+  }
+  header button {
+    width: 28%;
+    margin-left: 1%;
+  }
+
+  #section {
+    display: flex;
+    justify-content: space-around;
+  }
+}
